@@ -56,12 +56,20 @@
 
     <!-- Page Content -->
     <div class="container">
-          
-        <legend>Alert as soon as the page is launched.</legend>
-        <p> Add the below code snippet to your HTML </p>
-        <code>
-            &lt;script&gt;alert("Hello Good Morning");&lt;/script&gt;
-        </code>
+    <legend> Javascript behind this page </legend> 
+
+    <code>
+        &lt;script&gt;<br/>
+        var theNumber = Number(prompt("Pick the number",""));<br/>
+        if(!isNaN(theNumber)){</br>
+            alert("The square of the number is:" + theNumber * theNumber);<br/>
+        }<br/>
+        else{<br/>
+            alert("hey you didn't give me a number");<br/>
+        }<br/>
+        &lt;/script&gt;
+    </code>
+     
     </div>
     <footer class="footer">
       <div class="container right">
@@ -76,7 +84,15 @@
 
     <!-- Alert -->
     <!--script src="js/alertprog.js"></script-->
-    <script>alert("Hello GoodMorning");</script>
+    <script>
+        var theNumber = Number(prompt("Pick the number",""));
+        if(!isNaN(theNumber)){
+            alert("The square of the number is:" + theNumber * theNumber);
+        }
+        else{
+            alert("hey you didn't give me a number");
+        }
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="Chapter/js/bootstrap.min.js"></script>
