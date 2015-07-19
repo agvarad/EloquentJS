@@ -1,1 +1,3 @@
 # EloquentJS
+
+Gettins started with Javascript...
